@@ -1,0 +1,22 @@
+# Crave Retail
+
+> Crave Retail, Inc. builds in-store retail technology that connects shoppers, store associates, and product data across physical touchpoints — smart fitting rooms, sales-floor assistants, and mobile. Reported scale: 3,000+ live touchpoints, 27M+ shopper sessions, across 10+ countries. Techstars-backed. No public developer API or documentation is published at this time.
+
+## Products
+- [Crave Engage](https://craveretail.com/engage.html): Customer-facing digital shopping assistants in fitting rooms, on the sales floor, and on mobile.
+- [Crave Assist](https://craveretail.com/assist.html): Store-associate tools — floor visibility, service routing, and item lookup.
+- [Smart Fitting Rooms](https://craveretail.com/fitting-rooms.html): RFID-based connected fitting-room technology (the company's original product).
+
+## Company
+- [Website](https://craveretail.com/)
+- [About](https://craveretail.com/about.html)
+- [Book a demo](https://craveretail.com/demo.html)
+
+## Legal
+- [Privacy Policy](https://craveretail.com/privacy.html)
+- [Terms of Service](https://craveretail.com/terms.html)
+- [Delete My Data](https://craveretail.com/delete-my-data.html)
+
+## Notes
+- No public REST/GraphQL API, OpenAPI specification, SDKs, CLI, or developer portal was found on the provider's public surface (probed 2026-07-18).
+- Contact for data/privacy requests: privacy@craveretail.com

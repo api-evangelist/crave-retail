@@ -1,7 +1,25 @@
 aid: crave-retail
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crave-retail.png
 name: Crave Retail
-description: Crave Retail is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Crave Retail, Inc. builds in-store retail technology that connects shoppers,
+  store associates, and product data across physical touchpoints. Its platform spans Crave Engage
+  (customer-facing digital shopping assistants in fitting rooms, on the sales floor, and on mobile),
+  Crave Assist (store-associate tools for floor visibility, service routing, and item lookup), and
+  Smart Fitting Rooms, the RFID-based connected fitting-room product it started with. Crave reports
+  3,000+ live touchpoints, 27M+ shopper sessions, and operations across 10+ countries. The company is
+  Techstars-backed. As of this enrichment pass it publishes a marketing and legal web presence but no
+  public developer API, OpenAPI specification, SDKs, or documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/crave-retail/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Retail
+- Retail Technology
+- In-Store
+- Smart Fitting Rooms
+- RFID
+- Shopping
+- Ecommerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/crave-retail-domain-security.yml
+- type: LLMsTxt
+  url: llms/crave-retail-llms.txt
 - type: Website
   url: https://craveretail.com/
+- type: PrivacyPolicy
+  url: https://craveretail.com/privacy.html
+- type: TermsOfService
+  url: https://craveretail.com/terms.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
