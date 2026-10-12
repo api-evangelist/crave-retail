@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/crave-retail/integrations
+- https://n8n.io/integrations/crave-retail/
+- https://composio.dev/toolkits/crave-retail
+- https://monid.ai/tools/crave-retail
+checked:
+- https://composio.dev/toolkits/crave-retail
+- https://monid.ai/tools/crave-retail
+- https://n8n.io/integrations/crave-retail/
+- https://zapier.com/apps/crave-retail/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
